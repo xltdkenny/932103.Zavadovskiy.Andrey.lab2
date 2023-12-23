@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+}
+
+.header_nav {
+    background-color: aqua;
+    flex: 160px 0 0;
+}
+
+.header_nav ul {
+    background-color: bisque;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 40px;
+}
+
+.header-text {
+    background-color: darkgray;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: limegreen;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+}
+
+.content {
+    flex: 1 1 auto;
+    padding-bottom: 50px;
+}

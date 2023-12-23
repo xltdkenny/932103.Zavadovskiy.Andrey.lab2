@@ -1,0 +1,52 @@
+.static-box, .relative-red-box, .relative-peru-box {
+    width: 150px;
+    height: 100px;
+    color:white;
+}
+
+.static-box {
+    position: static;
+    background-color: blueviolet;
+}
+
+.relative-red-box {
+    position: relative;
+    background-color: darkred;
+}
+
+.relative-peru-box {
+    position: relative;
+    background-color: peru;
+    left: 30px;
+    top: -30px;
+}
+
+.big-relative-box {
+    position: relative;
+    width: 500px;
+    height: 350px;
+    background-color: indianred;
+    color:white;
+
+}
+
+.absolute {
+    position: absolute;
+    background-color: indigo;
+    width: 250px;
+    height: 180px;
+    bottom: 70px;
+    right: 0;
+    font-size: 13px;
+}
+
+.fixed-box {
+    position: absolute;
+    background-color: green;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    color:white;
+    font-size: 12px;
+}

@@ -1,0 +1,11 @@
+.container {
+    background-color: blue;
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    float: right;
+    margin: 0 0 20px 20px;
+}
